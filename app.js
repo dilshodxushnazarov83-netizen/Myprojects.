@@ -1,14 +1,14 @@
 /** KINGSMAN TAILORS & SUITS — Frontend Logic */
 const PRODUCTS = [
-  { id: 1, name: "Kingsman Royal Navy Ikki Qismli", category: "twopiece", categoryName: "Klassik Ikki Qismli", price: 4850000, icon: "🤵", tag: "Eng ko'p sotilgan", fabric: "Super 140's Italiya Sof Juni", details: "To'q ko'k rangli, biznes va tantanalar uchun benuqson ikki qismli kostyum.", color: "To'q ko'k", sizes: ["48", "50", "52", "54", "56"] },
-  { id: 2, name: "Savile Row Charcoal Pinstripe", category: "twopiece", categoryName: "Klassik Ikki Qismli", price: 5200000, icon: "🕴️", tag: "Diplomat Uslubi", fabric: "Super 150's Ingliz Scabal Juni", details: "Ingichka oq chiziqli to'q kulrang kostyum-shim, qomatni xushbichim ko'rsatadi.", color: "Kulrang chiziqli", sizes: ["48", "50", "52", "54"] },
-  { id: 3, name: "Kingsman Heritage Uch Qismli", category: "threepiece", categoryName: "Uch Qismli Nimchali", price: 6400000, icon: "🤵‍♂️", tag: "Shohona Tanlov", fabric: "100% Loro Piana Merino Juni", details: "Piyjak, maxsus nimcha va shimdan iborat dabdabali uch qismli jentlmen ansambli.", color: "Grafit kulrang", sizes: ["46", "48", "50", "52", "54", "56"] },
-  { id: 4, name: "Black Tie Tuxedo (Smoking)", category: "tuxedo", categoryName: "Smoking / Tantanali", price: 7200000, icon: "🎩", tag: "Tantanali Marosim", fabric: "Super 160's Sof Jun & Shoyi Astar", details: "Haqiqiy ingliz smokingi: atlas yoqa, bitta tugma va yon chiziqli shim.", color: "Chuqur Qora", sizes: ["48", "50", "52", "54"] },
-  { id: 5, name: "Oxford Double-Breasted Ikki Qatorli", category: "twopiece", categoryName: "Klassik Ikki Qismli", price: 5600000, icon: "🧥", tag: "Eksklyuziv", fabric: "Super 130's Zelandiya Juni", details: "Garri Xart uslubidagi 6x2 tugmali ikki qatorli klassik kostyum-shim.", color: "To'q ko'k katakli", sizes: ["48", "50", "52", "54"] },
-  { id: 6, name: "Emerald Green Velvet Smoking", category: "tuxedo", categoryName: "Smoking / Tantanali", price: 6800000, icon: "✨", tag: "Maxsus Kolleksiya", fabric: "Italiya Baxmali & Ipak Yoqa", details: "Zumrad yashil baxmal piyjak va klassik qora shim, ziyofatlar uchun ajoyib obraz.", color: "Zumrad Yashil", sizes: ["48", "50", "52"] },
-  { id: 7, name: "Italiya Yozgi Zig'ir-Jun Kostyum", category: "blazer", categoryName: "Piyjak & Shimlar", price: 4300000, icon: "👔", tag: "Smart Casual", fabric: "55% Jun, 45% Tabiiy Zig'ir", details: "Yengil va nafas oluvchi, iliq ob-havoda qulaylik baxsh etuvchi bej kostyum-shim.", color: "Qaymoqrang / Bej", sizes: ["46", "48", "50", "52", "54"] },
-  { id: 8, name: "Kingsman Oxfords Teri Poyabzali", category: "accessories", categoryName: "Aksessuarlar", price: 2450000, icon: "👞", tag: "Oxfords not Brogues", fabric: "100% Buqa Terisi (Goodyear)", details: "Klassik yopiq bog'ichli qora Oksford poyabzali, kostyumning ajralmas asosi.", color: "Qora yaltiroq", sizes: ["40", "41", "42", "43", "44", "45"] },
-  { id: 9, name: "Ipak Galstuk & Dastro'mol To'plami", category: "accessories", categoryName: "Aksessuarlar", price: 450000, icon: "👔", tag: "Aksessuar", fabric: "100% Jakkar To'qima Ipak", details: "Kingsman ramziy chiziqli galstuk va dastro'mol to'plami.", color: "Navy & Burgundy", sizes: ["Universal"] }
+  { id: 1, name: "Kingsman Royal Navy Ikki Qismli", category: "twopiece", categoryName: "Klassik Ikki Qismli", price: 4850000, image: "images/suit_navy.jpg", tag: "Eng ko'p sotilgan", fabric: "Super 140's Italiya Sof Juni", details: "To'q ko'k rangli, biznes va tantanalar uchun benuqson ikki qismli kostyum.", color: "To'q ko'k", sizes: ["48", "50", "52", "54", "56"] },
+  { id: 2, name: "Savile Row Charcoal Pinstripe", category: "twopiece", categoryName: "Klassik Ikki Qismli", price: 5200000, image: "images/suit_pinstripe.jpg", tag: "Diplomat Uslubi", fabric: "Super 150's Ingliz Scabal Juni", details: "Ingichka oq chiziqli to'q kulrang kostyum-shim, qomatni xushbichim ko'rsatadi.", color: "Kulrang chiziqli", sizes: ["48", "50", "52", "54"] },
+  { id: 3, name: "Kingsman Heritage Uch Qismli", category: "threepiece", categoryName: "Uch Qismli Nimchali", price: 6400000, image: "images/suit_threepiece.jpg", tag: "Shohona Tanlov", fabric: "100% Loro Piana Merino Juni", details: "Piyjak, maxsus nimcha va shimdan iborat dabdabali uch qismli jentlmen ansambli.", color: "Grafit kulrang", sizes: ["46", "48", "50", "52", "54", "56"] },
+  { id: 4, name: "Black Tie Tuxedo (Smoking)", category: "tuxedo", categoryName: "Smoking / Tantanali", price: 7200000, image: "images/suit_tuxedo.jpg", tag: "Tantanali Marosim", fabric: "Super 160's Sof Jun & Shoyi Astar", details: "Haqiqiy ingliz smokingi: atlas yoqa, bitta tugma va yon chiziqli shim.", color: "Chuqur Qora", sizes: ["48", "50", "52", "54"] },
+  { id: 5, name: "Oxford Double-Breasted Ikki Qatorli", category: "twopiece", categoryName: "Klassik Ikki Qismli", price: 5600000, image: "images/suit_doublebreast.jpg", tag: "Eksklyuziv", fabric: "Super 130's Zelandiya Juni", details: "Garri Xart uslubidagi 6x2 tugmali ikki qatorli klassik kostyum-shim.", color: "To'q ko'k katakli", sizes: ["48", "50", "52", "54"] },
+  { id: 6, name: "Emerald Green Velvet Smoking", category: "tuxedo", categoryName: "Smoking / Tantanali", price: 6800000, image: "images/suit_velvet.jpg", tag: "Maxsus Kolleksiya", fabric: "Italiya Baxmali & Ipak Yoqa", details: "Zumrad yashil baxmal piyjak va klassik qora shim, ziyofatlar uchun ajoyib obraz.", color: "Zumrad Yashil", sizes: ["48", "50", "52"] },
+  { id: 7, name: "Italiya Yozgi Zig'ir-Jun Kostyum", category: "blazer", categoryName: "Piyjak & Shimlar", price: 4300000, image: "images/suit_linen.jpg", tag: "Smart Casual", fabric: "55% Jun, 45% Tabiiy Zig'ir", details: "Yengil va nafas oluvchi, iliq ob-havoda qulaylik baxsh etuvchi bej kostyum-shim.", color: "Qaymoqrang / Bej", sizes: ["46", "48", "50", "52", "54"] },
+  { id: 8, name: "Kingsman Oxfords Teri Poyabzali", category: "accessories", categoryName: "Aksessuarlar", price: 2450000, image: "images/shoes_oxford.jpg", tag: "Oxfords not Brogues", fabric: "100% Buqa Terisi (Goodyear)", details: "Klassik yopiq bog'ichli qora Oksford poyabzali, kostyumning ajralmas asosi.", color: "Qora yaltiroq", sizes: ["40", "41", "42", "43", "44", "45"] },
+  { id: 9, name: "Ipak Galstuk & Dastro'mol To'plami", category: "accessories", categoryName: "Aksessuarlar", price: 450000, image: "images/acc_silk_tie.jpg", tag: "Aksessuar", fabric: "100% Jakkar To'qima Ipak", details: "Kingsman ramziy chiziqli galstuk va dastro'mol to'plami.", color: "Navy & Burgundy", sizes: ["Universal"] }
 ];
 
 const state = { products: PRODUCTS, filtered: PRODUCTS, cat: 'all', search: '', sort: 'featured', cart: [], curProd: null, curSize: null };
@@ -30,7 +30,10 @@ function renderProducts() {
   }
   grid.innerHTML = state.filtered.map(p => `
     <div class="product-card" data-id="${p.id}">
-      <div class="product-img-box"><span class="badge-tag">${p.tag}</span><div class="suit-illustration">${p.icon}</div></div>
+      <div class="product-img-box">
+        <span class="badge-tag">${p.tag}</span>
+        <img class="product-photo" src="${p.image}" alt="${p.name}" loading="lazy">
+      </div>
       <div class="product-details">
         <span class="product-category">${p.categoryName}</span>
         <h3 class="product-title">${p.name}</h3>
@@ -92,7 +95,9 @@ window.openDetailModal = (id) => {
   state.curProd = p; state.curSize = p.sizes[0];
   $("productModalBody").innerHTML = `
     <div class="product-modal-grid">
-      <div class="modal-img-col"><span class="modal-suit-icon">${p.icon}</span></div>
+      <div class="modal-img-col">
+        <img class="modal-photo" src="${p.image}" alt="${p.name}">
+      </div>
       <div class="modal-info-col">
         <span class="product-category">${p.categoryName}</span>
         <h3>${p.name}</h3>
@@ -134,7 +139,7 @@ window.quickAddToCart = (id) => {
 function addToCart(p, size) {
   const item = state.cart.find(i => i.id === p.id && i.size === size);
   if (item) item.qty++;
-  else state.cart.push({ id: p.id, name: p.name, price: p.price, icon: p.icon, size, qty: 1 });
+  else state.cart.push({ id: p.id, name: p.name, price: p.price, image: p.image, size, qty: 1 });
   updateCart();
   showToast(`"${p.name}" savatchaga qo'shildi`);
 }
@@ -151,7 +156,7 @@ function updateCart() {
     ? `<div class="cart-empty"><div class="cart-empty-icon">🛍️</div><p>Savatchangiz bo'sh</p></div>`
     : state.cart.map((i, idx) => `
       <div class="cart-item">
-        <div class="cart-item-icon">${i.icon}</div>
+        <img class="cart-item-thumb" src="${i.image}" alt="${i.name}">
         <div class="cart-item-details">
           <div class="cart-item-title">${i.name}</div>
           <div class="cart-item-meta">O'lcham: ${i.size}</div>
