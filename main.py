@@ -1,2 +1,2 @@
-print ("salom, GitHub!")
-print ("Birinchi dasturim")
+print("salom, GitHub!")
+print("Birinchi dasturim")
